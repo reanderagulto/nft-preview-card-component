@@ -1,0 +1,46 @@
+:root {
+    /* Color */
+    --color-soft-blue: #8bacda;
+    --color-cyan: #00fff7;
+    --color-blue-main: #0d192b;
+    --color-blue-card: #14253d;
+    --color-blue-line: #2f415b;
+    --color-white: #FFF;
+
+    /* Font */
+    --font-size: 1.125rem;
+    --font-outfit: 'Outfit', sans-serif;
+}
+
+body {
+    font-family: var(--font-outfit);
+    font-size: var(--font-size);  
+    margin: unset;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--color-white);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
